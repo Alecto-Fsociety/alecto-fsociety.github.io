@@ -29,4 +29,4 @@ Explore my projects and repositories.
 
 ---
 
-📬 Contact: [contact@example.com](mailto:contact@example.com)
+📬 Contact: [goodbye_friend1111@proton.me](mailto:goodbye_friend1111@proton.me)

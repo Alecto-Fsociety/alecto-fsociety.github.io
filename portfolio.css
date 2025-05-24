@@ -116,7 +116,6 @@ a:hover {
     align-items: center;
     gap: 6px;
 }
-/* アイコン無しバージョン調整 */
 .sns-links.sns-noicon a {
     font-size: 22px;
     padding: 3px 16px;

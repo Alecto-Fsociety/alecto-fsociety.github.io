@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alecto Portfolio (2025)</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <canvas class="matrix"></canvas>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="mailto:goodbye_friend1111@proton.me">Contact</a>
+        <div class="lang-switcher">
+            <span id="lang-label" class="lang-label">Language:</span>
+            <button id="ja-btn" class="lang-btn active" aria-label="日本語を表示">日本語</button>
+            <button id="en-btn" class="lang-btn" aria-label="Switch to English">English</button>
+        </div>
+    </div>
+    <main>
+        <div class="container" id="home">
+            <img src="https://github.com/Alecto-Fsociety.png" alt="Alecto's Icon" class="icon">
+            <section class="skills-frame">
+                <!-- 日本語版 -->
+                <div id="portfolio-ja" class="lang-content" lang="ja">
+                    <h2>Alecto ポートフォリオ（2025年版）</h2>
+                    <section>
+                        <h3>▶ 自己紹介</h3>
+                        <p>
+                            私はAlectoといいます。主にサイバーセキュリティに関連するツールの開発を行っており、Linux環境をベースにPythonを使って様々なセキュリティ関連ツールや業務効率化のGUIアプリケーションを作っています。使用しているOSは主にKali Linuxで、Vimをエディタとして使いこなし、必要に応じてBashスクリプトでインストールの自動化なども行います。
+                        </p>
+                        <p>
+                            仮想環境ではVirtualBox上にWindowsも導入しており、マルチプラットフォームでの動作確認も行える体制を整えています。
+                        </p>
+                    </section>
+                    <section>
+                        <h3>▶ 学習環境と経験</h3>
+                        <p>以下のトレーニングプラットフォームを活用し、常に実践的なスキルを鍛えています：</p>
+                        <ul>
+                            <li>picoCTF</li>
+                            <li>TryHackMe</li>
+                        </ul>
+                        <p>これらの環境でリバースエンジニアリング、ウェブ脆弱性、OSINT、バイナリ解析など幅広い分野を体験しています。</p>
+                    </section>
+                    <section>
+                        <h3>▶ セキュリティツール開発実績</h3>
+                        <ul>
+                            <li>
+                                <strong>🔎 nova_observer.py</strong><br>
+                                Web脅威解析スキャナ<br>
+                                HTTPペイロード注入、LFI、Traversal、Shodan API連携<br>
+                                Markdown形式でのレポート自動生成
+                            </li>
+                            <li>
+                                <strong>🔌 reverse_attacker / reverse_victim</strong><br>
+                                C2通信模倣ツール<br>
+                                リバースシェル、暗号化されたランサム機能、DoS指令送信など多機能実装
+                            </li>
+                            <li>
+                                <strong>🪧 tcp_attack / dos_dns</strong><br>
+                                TCPおよびUDPベースのDoS模擬ツール<br>
+                                User-Agent/Referer/Proxyの偽装を組み合わせたテスト用設計
+                            </li>
+                            <li>
+                                <strong>📅 gobuster.py</strong><br>
+                                ディレクトリブルートフォーススキャナ<br>
+                                ステータスコードによる判別とリンク出力機能
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ 実用GUIツール</h3>
+                        <ul>
+                            <li>
+                                <strong>📈 contact_auto_agent.py</strong><br>
+                                特定業界向けの入力補助ツール（NDA考慮済）<br>
+                                GUIからExcelテンプレートを取り込み、構造化されたWebフォームへ自動入力<br>
+                                ローカル認証（SHA256）や送信ログ、営業NGワードフィルター機能付き
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ 文書解析 / OSINT</h3>
+                        <ul>
+                            <li>
+                                <strong>PDF_Changer.py</strong><br>
+                                PDF → 画像変換 → Tesseract OCRによる日本語テキスト抽出 → 整理保存
+                            </li>
+                            <li>
+                                <strong>pdf_downloader.py</strong><br>
+                                特定サイト（JASPA）からのPDF年度別自動収集と分類保存
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ Java + Spring Boot</h3>
+                        <ul>
+                            <li>REST API設計（Controller/Service構造）</li>
+                            <li>Spring Securityによるログイン・認証機能</li>
+                            <li>HTML/JavaScriptとの連携によるシステム構築経験あり</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ 技術スタック</h3>
+                        <ul>
+                            <li>言語: Python 3, Java (Spring Boot), JavaScript (Node.js), Bash</li>
+                            <li>フレームワーク/ライブラリ: tkinter, cryptography, requests, BeautifulSoup, openpyxl</li>
+                            <li>ツール: aircrack-ng, macchanger, tesseract, pdftoppm</li>
+                            <li>OS: Kali Linux, Debian, Arch Linux, Tiny Core, Windows (VirtualBox)</li>
+                            <li>GitHub: <a href="https://github.com/Alecto-Fsociety" target="_blank">https://github.com/Alecto-Fsociety</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ 連絡先</h3>
+                        <p>
+                            カスタムツールや業務自動化スクリプトに関するご相談は以下のメールアドレスまでご連絡ください。
+                        </p>
+                        <p>📧 <a href="mailto:goodbye_friend1111@proton.me">goodbye_friend1111@proton.me</a></p>
+                    </section>
+                    <section>
+                        <h3>▶ スポンサーのお願い</h3>
+                        <p>
+                            Nova_Observerやその他ツールが役立つと感じた場合は、開発支援のご協力をお願いします。
+                        </p>
+                        <blockquote>
+                            「世界は攻撃されるべき存在ではない。観測されるべきだ。」
+                        </blockquote>
+                        <p>
+                            <a href="https://github.com/sponsors/Alecto-Fsociety" target="_blank">❤️ GitHubでスポンサーになる</a>
+                        </p>
+                    </section>
+                    <section>
+                        <h3>▶ ライセンス</h3>
+                        <p>
+                            このリポジトリは <a href="LICENSE" target="_blank">MIT License</a> に基づいて公開しています。
+                        </p>
+                        <hr>
+                        <p style="font-size:0.95em;">
+                            ※本ポートフォリオに含まれるツールはすべて学習・研究用途で設計されています。実環境での使用は、各自の責任で行ってください。
+                        </p>
+                    </section>
+                </div>
+                <!-- 英語版 -->
+                <div id="portfolio-en" class="lang-content" lang="en" style="display:none">
+                    <h2>Alecto Portfolio (2025 Edition)</h2>
+                    <section>
+                        <h3>▶ About Me</h3>
+                        <p>
+                            I'm Alecto. I mainly develop cybersecurity-related tools, building various security tools and business-efficiency GUI applications in a Linux environment using Python. My primary OS is Kali Linux, and I’m proficient with Vim as my editor and create Bash scripts for installation automation as needed.
+                        </p>
+                        <p>
+                            I also use Windows in a VirtualBox VM for cross-platform verification.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>▶ Learning Platforms & Experience</h3>
+                        <p>I continuously enhance my hands-on skills using these training platforms:</p>
+                        <ul>
+                            <li>picoCTF</li>
+                            <li>TryHackMe</li>
+                        </ul>
+                        <p>I've experienced a wide range of fields such as reverse engineering, web vulnerabilities, OSINT, and binary analysis on these platforms.</p>
+                    </section>
+                    <section>
+                        <h3>▶ Security Tool Development Achievements</h3>
+                        <ul>
+                            <li>
+                                <strong>🔎 nova_observer.py</strong><br>
+                                Web threat analysis scanner<br>
+                                HTTP payload injection, LFI, traversal, Shodan API integration<br>
+                                Automatic report generation in Markdown format
+                            </li>
+                            <li>
+                                <strong>🔌 reverse_attacker / reverse_victim</strong><br>
+                                C2 communication simulation tool<br>
+                                Multi-functional: reverse shell, encrypted ransomware, DoS command, etc.
+                            </li>
+                            <li>
+                                <strong>🪧 tcp_attack / dos_dns</strong><br>
+                                TCP and UDP-based DoS simulation tools<br>
+                                Test design with User-Agent/Referer/Proxy spoofing
+                            </li>
+                            <li>
+                                <strong>📅 gobuster.py</strong><br>
+                                Directory brute-force scanner<br>
+                                Status code-based distinction and link output function
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ Practical GUI Tools</h3>
+                        <ul>
+                            <li>
+                                <strong>📈 contact_auto_agent.py</strong><br>
+                                Input support tool for a specific industry (NDA considered)<br>
+                                Import Excel templates via GUI and automatically input into structured web forms<br>
+                                Local authentication (SHA256), submission logs, and NG word filter included
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ Document Analysis / OSINT</h3>
+                        <ul>
+                            <li>
+                                <strong>PDF_Changer.py</strong><br>
+                                PDF → image conversion → Japanese text extraction with Tesseract OCR → organized saving
+                            </li>
+                            <li>
+                                <strong>pdf_downloader.py</strong><br>
+                                Automatic batch download and classification of PDFs by year from a specific site (JASPA)
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ Java + Spring Boot</h3>
+                        <ul>
+                            <li>REST API design (Controller/Service structure)</li>
+                            <li>Login/authentication using Spring Security</li>
+                            <li>System development in collaboration with HTML/JavaScript</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ Tech Stack</h3>
+                        <ul>
+                            <li>Languages: Python 3, Java (Spring Boot), JavaScript (Node.js), Bash</li>
+                            <li>Frameworks/Libraries: tkinter, cryptography, requests, BeautifulSoup, openpyxl</li>
+                            <li>Tools: aircrack-ng, macchanger, tesseract, pdftoppm</li>
+                            <li>OS: Kali Linux, Debian, Arch Linux, Tiny Core, Windows (VirtualBox)</li>
+                            <li>GitHub: <a href="https://github.com/Alecto-Fsociety" target="_blank">https://github.com/Alecto-Fsociety</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>▶ Contact</h3>
+                        <p>
+                            For inquiries about custom tools or business automation scripts, please contact me at the email address below.
+                        </p>
+                        <p>📧 <a href="mailto:goodbye_friend1111@proton.me">goodbye_friend1111@proton.me</a></p>
+                    </section>
+                    <section>
+                        <h3>▶ Support / Sponsor</h3>
+                        <p>
+                            If you find Nova_Observer or other tools useful, please consider supporting my development.
+                        </p>
+                        <blockquote>
+                            "The world deserves to be observed, not attacked."
+                        </blockquote>
+                        <p>
+                            <a href="https://github.com/sponsors/Alecto-Fsociety" target="_blank">❤️ Sponsor me on GitHub</a>
+                        </p>
+                    </section>
+                    <section>
+                        <h3>▶ License</h3>
+                        <p>
+                            This repository is published under the <a href="LICENSE" target="_blank">MIT License</a>.
+                        </p>
+                        <hr>
+                        <p style="font-size:0.95em;">
+                            *All tools in this portfolio are designed for educational and research purposes. Use in a production environment is at your own risk.*
+                        </p>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <div class="container" id="about">
+            <div id="about-title-ja" class="lang-content">
+                <h2>自己紹介（About Me）</h2>
+            </div>
+            <div id="about-title-en" class="lang-content" style="display:none">
+                <h2>About Me</h2>
+            </div>
+            <div id="aboutme-ja" class="lang-content">
+                <p>🔹 サイバーセキュリティやハッキングツールの開発を専門としています。</p>
+                <p>🔹 Linux環境、Bashスクリプト、ペネトレーションテストに精通。</p>
+                <p>🔹 マルチプラットフォーム検証のためKali LinuxとVirtualBoxを活用。</p>
+                <p>🔹 サイバーセキュリティに関するYouTubeチャンネルも運営中。</p>
+                <div class="sns-links sns-noicon">
+                    <a href="https://www.youtube.com/channel/UCCH11jBbn4uDlsWv-G4ANgA" target="_blank">YouTube</a>
+                    <a href="https://x.com/Alecto_Fsociety" target="_blank">X（Twitter）</a>
+                    <a href="https://qiita.com/Alecto_Fsociety" target="_blank">Qiita</a>
+                    <a href="https://alecto-fsociety.booth.pm/" target="_blank">BOOTH</a>
+                </div>
+                <p>
+                    <a href="https://www.youtube.com/channel/UCCH11jBbn4uDlsWv-G4ANgA" target="_blank">YouTubeチャンネルはこちら</a>
+                </p>
+            </div>
+            <div id="aboutme-en" class="lang-content" style="display:none">
+                <p>🔹 Specializing in cybersecurity and hacking tool development.</p>
+                <p>🔹 Experienced in Linux, Bash scripting, and penetration testing.</p>
+                <p>🔹 Utilizing Kali Linux and VirtualBox for multiplatform validation.</p>
+                <p>🔹 Also running a YouTube channel for cybersecurity content.</p>
+                <div class="sns-links sns-noicon">
+                    <a href="https://www.youtube.com/channel/UCCH11jBbn4uDlsWv-G4ANgA" target="_blank">YouTube</a>
+                    <a href="https://x.com/Alecto_Fsociety" target="_blank">X (Twitter)</a>
+                    <a href="https://qiita.com/Alecto_Fsociety" target="_blank">Qiita</a>
+                    <a href="https://alecto-fsociety.booth.pm/" target="_blank">BOOTH</a>
+                </div>
+                <p>
+                    <a href="https://www.youtube.com/channel/UCCH11jBbn4uDlsWv-G4ANgA" target="_blank">Check out my YouTube channel</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="portfolio.js"></script>
+</body>
+</html>
